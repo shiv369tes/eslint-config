@@ -1,0 +1,47 @@
+{
+  "name": "@phoenix35/eslint-config",
+  "version": "1.8.0",
+  "description": "Complete ESLint shareable config for beginners",
+  "exports": {
+    ".": "./index.js",
+    "./browser": "./browser.js",
+    "./node": "./node.js",
+    "./webextensions": "./webextensions.js",
+    "./userscript": "./userscript.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoenix35/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/Phoenix35/eslint-config/issues"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin-js": "^2.6.2",
+    "@stylistic/eslint-plugin-plus": "^2.6.2",
+    "eslint-plugin-jsdoc": "^50.0.0",
+    "globals": "^15.9.0"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-n": "^17.10.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9.8.0"
+  },
+  "engines": {
+    "node": ">= 20.16.0"
+  },
+  "author": "Phoenix35",
+  "license": "MPL-2.0"
+}
